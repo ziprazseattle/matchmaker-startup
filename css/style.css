@@ -1,0 +1,213 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+body {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 600;
+}
+
+/***************************
+HEADER
+***************************/
+
+#topper {
+	height: 150px;
+	background: black;
+	border-bottom: 4px solid #f9e42e;
+}
+
+#topper h1 {
+	color: #f9e42e;
+	font-family: "Merriweather", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	padding-left: 20px;
+	padding-top: 20px;
+
+}
+
+#topper nav {
+	float: right;
+	margin-right: 25px;
+	padding-top: 30px;
+}
+
+#topper nav a:first-child, a:nth-child(2) {
+	font-family: "Oswald", Arial, Helvetica, sans-serif; 
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#topper nav a:link {
+	color: white;
+	text-decoration: none;
+	padding: 20px 10px;
+	font-size: 25px;
+}
+
+#topper nav a:visited {
+	color: white;
+	text-decoration: none;
+	padding: 20px 10px;
+	font-size: 25px;
+}
+
+#topper nav a:hover {
+	color: #f9e42e;
+}
+
+
+
+#tagline {
+	height: 100px;
+	margin: 0 auto;
+	background: #d0cece;
+	text-align: center;
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 900;
+	font-family: "Merriweather";
+	padding-top: 35px;
+}
+
+#tagline del {
+	color: #999;
+}
+
+#tagline ins {
+	text-decoration: none;
+	border-bottom: 3px solid #f9e42e;
+}
+
+/**************************
+SECTION 1
+**************************/
+
+#mainimg {
+	/*background-color: red;*/
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+}
+
+#mainimg div {
+	background: rgba(255, 255, 255, .8);
+	width: 400px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: right;
+	border: 3px solid #d0cece;
+	border-radius: 5px;
+	padding: 40px;
+	margin-bottom: 20px;
+}
+
+#mainimg div h3 {
+	margin-bottom: 20px;
+	font-weight: 800;
+	font-size: 34px;
+}
+
+#mainimg div p {
+	font-size: 22px;
+	line-height: 35px;
+}
+
+#mainimg div button {
+	background: #f9e42e;
+	width: 340px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 3px #c1a61a;
+	margin-top: 40px;
+}
+
+#mainimg div button a {
+	text-decoration: none;
+	color: black;
+	font-family: "Oswald", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+
+/*************************
+SECTION 2
+*************************/
+ #posts div {
+ 	width: 33%;
+ 	float: left;
+ 	margin-top: 25px;
+ 	margin-bottom: 25px;
+ 	padding: 0px 25px;
+ }
+
+ #posts div h4 {
+ 	font-family: "Merriweather", Arial, Helvetica, sans-serif;
+ 	font-size: 32px;
+ 	margin-bottom: 10px;
+ }
+
+ #posts div p {
+ 	line-height: 30px;
+ 	margin-bottom: 20px;
+ }
+
+ #posts div:nth-child(2) {
+ 	border-right: 3px solid #d0cece;
+ 	border-left: 3px solid #d0cece;
+ }
+
+#posts div button {
+	width: 100%;
+	background: #d0cece;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 3px #999;
+}
+
+#posts div button a {
+	text-decoration: none;
+	color: black;
+	font-family: "Oswald", Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+/***************************
+FOOTER
+***************************/
+
+footer {
+	height: 75px;
+	clear: both;
+	color: white;
+	background: black;
+}
+
+footer p {
+	font-size: 16px;
+	font-weight: 400;
+	padding: 30px 20px;
+}
